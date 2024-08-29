@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input_custom {
+  accent-color: #dbdee4;
+  background-color: #dbdee4;
+}
+.custom2 {
+  position: relative;
+}
+.custom2::before,
+.custom2::after {
+  content: "";
+  width: 242px;
+  height: 0.4px;
+  background-color: #9ca3af;
+  display: inline-block;
+  position: absolute;
+}
+.custom2::before {
+  left: 0;
+  top: 0.7rem;
+}
+.custom2::after{
+  right: 0;
+  top: 0.7rem;
+}
+
+.custom3::before,
+.custom3::after {
+  content: "";
+  width: 205px;
+  height: 0.4px;
+  background-color: #9ca3af;
+  display: inline-block;
+  position: absolute;
+}
+.custom3::before {
+  left: 0;
+  top: 0.7rem;
+}
+.custom3::after{
+  right: 0;
+  top: 0.7rem;
+}
+
+.custom3 {
+  position: relative;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
